@@ -1,4 +1,5 @@
 
+import 'package:blood/screen/donor_screen.dart';
 import 'package:blood/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -20,7 +21,7 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
 
   final List<Widget> _screens=[
     HomeScreen(),
-    HomeScreen(),
+    DonorScreen(),
     HomeScreen(),
 
   ];

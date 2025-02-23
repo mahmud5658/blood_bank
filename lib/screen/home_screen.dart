@@ -31,8 +31,8 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: RichText(
           text: TextSpan(
-              text: 'Welcome to Blood Dpnors Community',
-              style: TextStyle(color: Colors.black)),
+              text: 'Welcome to Blood Donors Community',
+              style: TextStyle(fontSize: 18,fontWeight: FontWeight.w700,color: Colors.black)),
         ),
       ),
     );
