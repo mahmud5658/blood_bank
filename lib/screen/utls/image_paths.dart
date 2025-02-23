@@ -1,0 +1,3 @@
+class ImagePaths{
+  static String sabbirImg='https://scontent.fdac96-2.fna.fbcdn.net/v/t39.30808-6/469672167_3467407983560901_5106935844306121931_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF0H7OJpORfp3ie-DFzKBXefMc3vJe0u6N8xze8l7S7o1VS2p63_0EbMByjyq7MmYCqhp1EIsreeyRubfroPWZz&_nc_ohc=_0Sz6Hqr25QQ7kNvgGGEnAL&_nc_oc=AdiwCP4gzqx8V5OTO3O2NN93mTLj_PoUsI1EmY-LP5-oW4YwYqD-ZJhuK7YIRhXlqPs&_nc_zt=23&_nc_ht=scontent.fdac96-2.fna&_nc_gid=A7ul6HuZ2sVnxmUBibuRbFo&oh=00_AYBbwXy0iUtOhRNaGeQklRX32s2mMKhCMxc2RHm5kJKQ_g&oe=67C07B48';
+}
