@@ -1,4 +1,5 @@
 import 'package:blood/screen/donor_details_screen.dart';
+import 'package:blood/screen/donor_screen.dart';
 import 'package:flutter/material.dart';
 
 class BloodDonation extends StatelessWidget {
@@ -6,8 +7,8 @@ class BloodDonation extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   return MaterialApp(
-     home: DonorDetailsScreen(),
-   );
+    return MaterialApp(
+      home: DonorScreen(),
+    );
   }
 }

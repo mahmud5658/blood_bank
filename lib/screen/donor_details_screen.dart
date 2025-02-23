@@ -5,25 +5,20 @@ class DonorDetailsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   return Scaffold(
-     appBar: AppBar(
-       title: Text('Donor List'),
-     ),
-     body: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,crossAxisSpacing: 8,mainAxisSpacing: 8), itemBuilder: (context,index){
-       return Container(
-         decoration: BoxDecoration(
-           color: Colors.green
-         ),
-         child: Column(
-           mainAxisAlignment: MainAxisAlignment.center,
-           children: [
-             Text('Name: Abdullah',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w700),),
-             Text('Group: O+',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w700)),
-             TextButton(onPressed: (){}, child: Text('Details',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w700)))
-           ],
-         ),
-       );
-     }),
-   );
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Donor Details'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Name: Abdullah Al Mahmud',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w700)),
+            Text('Phone: 01705113009',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w700)),
+            Text('Address: Savar,Dhaka',style: TextStyle(fontSize: 18,fontWeight: FontWeight.w700))
+          ],
+        ),
+      ),
+    );
   }
 }
